@@ -38,13 +38,6 @@ router.post('/', async (req, res) => {
         errorMessage: "Error creating Author"
       })
   }
-  // author.save((err, newAuthor) => {
-  //   if (err) {
-  //     
-  //   } else {
-
-  //   }
-  // })
 })
 
 module.exports = router;
