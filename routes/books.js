@@ -53,8 +53,7 @@ router.post('/', async (req, res) => {
   } catch {
     renderNewPage(res, book, true);
   }
-
-})
+});
 
 async function renderNewPage(res, book, hasError = false) {
   try {
